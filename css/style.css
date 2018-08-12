@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/*
+Home
+*/
+
+a,
+a:visited,
+a:active {
+  color: #555;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.header,
+.jumbotron {
+  margin: 0px auto 50px auto;
+  margin-bottom: 0;
+  padding : 15px;
+  max-width: 1200px;
+}
+
+.title {
+  font-family: 'PT Sans Caption', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.jumbotron {
+  padding-top: 160px;
+}
+
+.j-text {
+  font-family: 'PT Serif', serif;
+  font-size: 2em;
+  display: block;
+  max-width: 650px;
+}
+
+.j-links {
+  padding-top: 50px;
+  font-family: 'Roboto Mono', monospace;
+  color: #222222;
+}
+
+.j-links span {
+  display: inline-block;
+  border-bottom: 2px solid #89cff0;
+}
+
+.social {
+  margin-top: 50px;
+}
+
+.social i {
+  font-size: 1.6em;
+  margin-right: 6px;
+}
+
+.social i:hover {
+  color: #89cff0;
+}
+
+/*
+About
+*/
+
+.about a,
+.about a:visited,
+.about a:active {
+  color: #eee;
+}
+
+.about a:hover {
+  color: #fff;
+}
+
+.s-1 {
+  background-color: #000;
+  margin: 0;
+  height: 700px;
+}
+
+.about .j-text {
+  color: #fff;
+}
+
+.j-content {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.1em;
+  max-width: 700px;
+}
+
+.s-2 .j-text {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.s-2 .jumbotron {
+  padding-top: 100px;
+}
+
+.j-content a,
+.j-content a:visited,
+.j-content a:active {
+  border-bottom: 2px solid #89cff0;
+  color: #111;
+}
+
+@media screen and (min-width: 400px) {
+  .j-content {
+    column-count: 2;
+  }
+}

@@ -1,0 +1,9 @@
+collections:
+  publication:
+    output: true
+    permalink: /problemset/problem/:name
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
