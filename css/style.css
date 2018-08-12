@@ -6,7 +6,6 @@
 
 html,
 body {
-  height: 100%;
   margin: 0;
 }
 
@@ -38,7 +37,7 @@ a:hover {
   margin: 0px auto 50px auto;
   margin-bottom: 0;
   padding : 15px;
-  max-width: 1200px;
+  max-width: 95vw;
 }
 
 .title {
@@ -48,7 +47,8 @@ a:hover {
 }
 
 .jumbotron {
-  padding-top: 160px;
+  padding-top: 30vh;
+  height: calc(100vh - 51px);
 }
 
 .j-text {
